@@ -1,43 +1,67 @@
-# INT-Halo — descargas y actualizaciones
+# I.N.T. — descargas y actualizaciones
 
-Este repositorio es el **canal de descargas** de [INT-Halo](https://github.com/luchobz268-dotcom/int-plugins),
-un visualizador para grabar videos POV de teclado: convierte lo que tocás en un juego de luces en
-pantalla. **No hace sonido** — convive con cualquier instrumento en FL Studio o en cualquier DAW, y
-también funciona solo, sin DAW.
+Este repositorio es el **canal de descargas** de los plugins de I.N.T. Acá **no hay código**: sólo
+los archivos publicados y el aviso de cuál es la última versión de cada producto. El código vive en
+otros repositorios, privados.
 
-Acá **no hay código**: sólo los archivos publicados y el aviso de cuál es la última versión. El código
-vive en otro repositorio, privado.
+Son **dos productos distintos**, y cada uno se baja por separado:
+
+| | Qué es | Formatos |
+|---|---|---|
+| **INT-Halo** | Un visualizador para grabar videos POV de teclado: convierte lo que tocás en un juego de luces en pantalla. **No hace sonido** — convive con cualquier instrumento. | VST3 + aplicación suelta |
+| **Pack de audio** | Cuatro plugins que trabajan la voz, cada uno con un botón: **INT-Tidy**, **INT-Even**, **INT-Whisper** e **INT-Spaces**. | VST3 + CLAP |
 
 ## Bajar INT-Halo
 
-**[⬇️ Descargar la última versión](https://github.com/luchobz268-dotcom/int-updates/releases/latest/download/INT-Halo-Setup.exe)**
+**[⬇️ Descargar INT-Halo](https://github.com/luchobz268-dotcom/int-updates/releases/latest)**
 
-Windows 10 u 11, 64 bits. Ese enlace siempre te da la versión más nueva: GitHub lo resuelve solo, sin
-que haya que tocar nada acá cuando sale una versión.
+Windows 10 u 11, 64 bits. Si preferís el plugin suelto, sin instalador, en esa misma publicación
+está `INT-Halo-VST3.zip` (se descomprime en `C:\Program Files\Common Files\VST3`).
 
-Si preferís el plugin suelto, sin instalador:
-**[INT-Halo-VST3.zip](https://github.com/luchobz268-dotcom/int-updates/releases/latest/download/INT-Halo-VST3.zip)**
-(descomprimilo en `C:\Program Files\Common Files\VST3`).
+## Bajar el pack de audio
 
-> Windows puede mostrar un aviso de SmartScreen la primera vez. Es porque el instalador no está
-> firmado con un certificado pago, no porque tenga algo raro. Se pasa con *Más información →
+**Todavía no está publicado.** Los cuatro plugins están terminados y validados, pero no salen hasta
+que se hayan escuchado con oído humano. Cuando salga, va a estar acá, en una publicación con la
+etiqueta `plugins-v…`.
+
+> **Ojo con los enlaces `releases/latest/download/…`**
+>
+> Este repositorio lo comparten los dos productos: INT-Halo publica con etiquetas `v0.1.8` y el pack
+> con etiquetas `plugins-v0.4.0`. `releases/latest` devuelve **la publicación más reciente por
+> fecha**, sin distinguir de quién es — así que un enlace directo a un archivo por esa vía se rompe
+> en cuanto publica el otro producto.
+>
+> La dirección real de cada instalador está en su propio `latest.json` (ver abajo). Ahí es donde hay
+> que mirar, y es lo que hacen tanto los plugins como la web.
+
+> Windows puede mostrar un aviso de SmartScreen la primera vez. Es porque los instaladores no están
+> firmados con un certificado pago, no porque tengan algo raro. Se pasa con *Más información →
 > Ejecutar de todas formas*.
 
-## Qué es `int-halo/latest.json`
+## Qué son los `latest.json`
 
-Es el archivo que el plugin consulta al abrirse para saber si hay una versión más nueva. Si la hay,
-te ofrece actualizar y baja el instalador con una barra de progreso.
+```
+int-halo/latest.json      ← INT-Halo
+int-plugins/latest.json   ← el pack de audio
+```
+
+Es el archivo que cada plugin consulta al abrirse para saber si hay una versión más nueva. Si la
+hay, te ofrece actualizar y baja el instalador con una barra de progreso.
 
 Lleva la versión, el enlace del instalador, su **huella `sha256`** y las novedades en castellano. La
 huella no es decorativa: el plugin **verifica que el archivo que bajó coincida** antes de ejecutarlo.
-Si no coincide, no lo abre.
+Si no coincide, no lo abre. La web de descargas lee estos mismos archivos, así que la web y el
+plugin no pueden anunciar versiones distintas.
 
-Lo actualiza `scripts/publish.ps1` del repositorio de código. **No conviene editarlo a mano**: si la
-huella o la versión quedan mal, el aviso de actualización aparece en bucle o la actualización se
-rechaza.
+Los actualiza el `scripts/publish.ps1` de cada repositorio de código. **No conviene editarlos a
+mano**: si la huella o la versión quedan mal, el aviso de actualización aparece en bucle o la
+actualización se rechaza.
 
 ## Enlaces
 
-- **[Página de INT-Halo](https://int-plugins-web.vercel.app)** — qué hace, las 23 escenas y cómo empezar.
-  (Cuando esté el dominio propio `ineedtime.com.ar`, hay que cambiar este enlace.)
-- **[Todas las versiones](https://github.com/luchobz268-dotcom/int-updates/releases)** — el historial completo.
+- **[vst.ineedtime.com.ar](https://vst.ineedtime.com.ar)** — la página de los plugins: qué hace cada
+  uno, las 23 escenas de INT-Halo y cómo empezar.
+- **[ineedtime.com.ar](https://ineedtime.com.ar)** — el sello colaborativo I.N.T., la otra mitad de
+  la marca.
+- **[Todas las versiones](https://github.com/luchobz268-dotcom/int-updates/releases)** — el historial
+  completo de los dos productos.
