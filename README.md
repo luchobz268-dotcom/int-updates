@@ -13,23 +13,27 @@ Son **dos productos distintos**, y cada uno se baja por separado:
 
 ## Bajar INT-Halo
 
-**[⬇️ Descargar INT-Halo](https://github.com/luchobz268-dotcom/int-updates/releases/latest)**
+**[⬇️ Descargar INT-Halo v0.1.8](https://github.com/luchobz268-dotcom/int-updates/releases/tag/v0.1.8)**
 
 Windows 10 u 11, 64 bits. Si preferís el plugin suelto, sin instalador, en esa misma publicación
 está `INT-Halo-VST3.zip` (se descomprime en `C:\Program Files\Common Files\VST3`).
 
 ## Bajar el pack de audio
 
-**Todavía no está publicado.** Los cuatro plugins están terminados y validados, pero no salen hasta
-que se hayan escuchado con oído humano. Cuando salga, va a estar acá, en una publicación con la
-etiqueta `plugins-v…`.
+**[⬇️ Descargar el pack v0.5.0](https://github.com/luchobz268-dotcom/int-updates/releases/tag/plugins-v0.5.0)**
 
-> **Ojo con los enlaces `releases/latest/download/…`**
+Los cuatro plugins en un solo instalador, y al instalarlo podés destildar los que no quieras.
+Windows 10 u 11, 64 bits. Formatos VST3 y CLAP.
+
+> **Ojo: acá los enlaces van con la ETIQUETA puesta, nunca con `releases/latest`.**
 >
-> Este repositorio lo comparten los dos productos: INT-Halo publica con etiquetas `v0.1.8` y el pack
-> con etiquetas `plugins-v0.4.0`. `releases/latest` devuelve **la publicación más reciente por
-> fecha**, sin distinguir de quién es — así que un enlace directo a un archivo por esa vía se rompe
-> en cuanto publica el otro producto.
+> Y no es una manía. Este repositorio lo comparten los dos productos: INT-Halo publica con etiquetas
+> `v0.1.8` y el pack con `plugins-v0.5.0`. `releases/latest` devuelve **la publicación más reciente
+> por fecha**, sin distinguir de quién es.
+>
+> Se vio en vivo el 2026-08-11: apenas se publicó el pack, los dos botones de esta misma página
+> —que usaban `releases/latest`— pasaron a llevar al pack, incluido el que decía "Descargar
+> INT-Halo". Por eso ahora cada uno nombra su etiqueta.
 >
 > La dirección real de cada instalador está en su propio `latest.json` (ver abajo). Ahí es donde hay
 > que mirar, y es lo que hacen tanto los plugins como la web.
