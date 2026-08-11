@@ -1,0 +1,16 @@
+{
+    "url":  "https://github.com/luchobz268-dotcom/int-updates/releases/download/plugins-v0.5.0/INT-Plugins-Setup.exe",
+    "size":  7465239,
+    "version":  "0.5.0",
+    "zipUrl":  "https://github.com/luchobz268-dotcom/int-updates/releases/download/plugins-v0.5.0/INT-Plugins-VST3-CLAP.zip",
+    "notes":  "**Los cuatro plugins ahora te dejan comparar.**\n\nArriba, al lado del nombre, hay un botón que dice **Sin efecto**. Lo apretás y escuchás la pista tal\ncomo venía; lo volvés a apretar y el efecto vuelve. No perdés nada de lo que hayas configurado.\n\nSuena obvio, pero es la única forma honesta de saber si estás mejorando algo. El oído se acostumbra\nen segundos: después de un rato cualquier cosa \"suena mejor\" nada más que porque es lo último que\nescuchaste. Comparar contra el original es lo que corta esa trampa.\n\n**Lo importante es cómo apaga.** El sonido entra y sale de a poco, no de golpe, así no se escucha un\nchasquido justo en el medio de la comparación. En INT-Spaces eso se nota más que en ninguno: la cola\ndel ambiente se desvanece en vez de cortarse en seco.\n\nDos detalles que no se ven pero cambian el resultado:\n\n- **El botón y el DAW van juntos.** Si automatizás el apagado desde el programa de música, el botón\n  se prende y se apaga solo. Y al revés.\n- **En INT-Spaces, el retardo se mantiene** con el efecto apagado. Si se sacara, la pista saltaría\n  de lugar al comparar, y estarías comparando dos cosas que ya no están alineadas.\n\nEl botón **arranca apagado**, así que cualquier proyecto hecho con la versión anterior suena\nexactamente igual al abrirlo. No es una promesa: hay un test por plugin que compara el audio muestra\npor muestra.\n\nY un test más por plugin, escrito al revés de lo que uno esperaría: exige que el primer instante\ndespués de apagar **todavía no** suene igual al original. Si alguna vez alguien hace el apagado\ninstantáneo, vuelve el chasquido y el test lo frena antes de que salga.\n\n### Además\n\nLa página de descarga va a mostrar el peso exacto de cada archivo: ahora lo anota el mismo programa\nque lo publica, en vez de salir a preguntarlo por ahí.\n\n---",
+    "sha256":  "7c9e4a1ab6ef857f67160d972a66be1fc7edb8664a34db25885fdf345c1af8fe",
+    "zipSha256":  "ec4980567a0eb613b2a785a763c2fd7df086b5d07911b522f047a71a810e399c",
+    "plugins":  [
+                    "INT-Even",
+                    "INT-Tidy",
+                    "INT-Whisper",
+                    "INT-Spaces"
+                ],
+    "zipSize":  19603392
+}
