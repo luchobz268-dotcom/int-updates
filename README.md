@@ -9,26 +9,26 @@ Son **dos productos distintos**, y cada uno se baja por separado:
 | | Qué es | Formatos |
 |---|---|---|
 | **INT-Halo** | Un visualizador para grabar videos POV de teclado: convierte lo que tocás en un juego de luces en pantalla. **No hace sonido** — convive con cualquier instrumento. | VST3 + aplicación suelta |
-| **Pack de audio** | Cuatro plugins que trabajan la voz, cada uno con un botón: **INT-Tidy**, **INT-Even**, **INT-Whisper** e **INT-Spaces**. | VST3 + CLAP |
+| **Pack de audio** | Cinco plugins que trabajan la voz, cada uno con un botón: **INT-Tidy**, **INT-Even**, **INT-Whisper**, **INT-Spaces** e **INT-Align**. | VST3 + CLAP |
 
 ## Bajar INT-Halo
 
-**[⬇️ Descargar INT-Halo v0.1.8](https://github.com/luchobz268-dotcom/int-updates/releases/tag/v0.1.8)**
+**[⬇️ Descargar INT-Halo v0.2.0](https://github.com/luchobz268-dotcom/int-updates/releases/tag/v0.2.0)**
 
 Windows 10 u 11, 64 bits. Si preferís el plugin suelto, sin instalador, en esa misma publicación
 está `INT-Halo-VST3.zip` (se descomprime en `C:\Program Files\Common Files\VST3`).
 
 ## Bajar el pack de audio
 
-**[⬇️ Descargar el pack v0.5.0](https://github.com/luchobz268-dotcom/int-updates/releases/tag/plugins-v0.5.0)**
+**[⬇️ Descargar el pack v0.6.0](https://github.com/luchobz268-dotcom/int-updates/releases/tag/plugins-v0.6.0)**
 
-Los cuatro plugins en un solo instalador, y al instalarlo podés destildar los que no quieras.
+Los cinco plugins en un solo instalador, y al instalarlo podés destildar los que no quieras.
 Windows 10 u 11, 64 bits. Formatos VST3 y CLAP.
 
 > **Ojo: acá los enlaces van con la ETIQUETA puesta, nunca con `releases/latest`.**
 >
 > Y no es una manía. Este repositorio lo comparten los dos productos: INT-Halo publica con etiquetas
-> `v0.1.8` y el pack con `plugins-v0.5.0`. `releases/latest` devuelve **la publicación más reciente
+> `v0.2.0` y el pack con `plugins-v0.6.0`. `releases/latest` devuelve **la publicación más reciente
 > por fecha**, sin distinguir de quién es.
 >
 > Se vio en vivo el 2026-08-11: apenas se publicó el pack, los dos botones de esta misma página
