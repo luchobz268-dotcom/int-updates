@@ -1,0 +1,3 @@
+# Las firmas Ed25519 cubren los BYTES EXACTOS de cada archivo.
+# Cualquier conversion de finales de linea las invalida en silencio.
+* -text
