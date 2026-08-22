@@ -28,8 +28,12 @@ Windows 10 u 11, 64 bits. Formatos VST3 y CLAP.
 > **Ojo: acá los enlaces van con la ETIQUETA puesta, nunca con `releases/latest`.**
 >
 > Y no es una manía. Este repositorio lo comparten los dos productos: INT-Halo publica con etiquetas
-> `v0.2.0` y el pack con `plugins-v0.6.0`. `releases/latest` devuelve **la publicación más reciente
-> por fecha**, sin distinguir de quién es.
+> del tipo `vX.Y.Z` y el pack con `plugins-vX.Y.Z`. `releases/latest` devuelve **la publicación más
+> reciente por fecha**, sin distinguir de quién es.
+>
+> *(Acá había dos números de versión concretos de ejemplo. Se sacaron el 22/08/2026: eran un texto
+> más que envejecía en cada publicación, y los que importan de verdad son los dos botones de
+> arriba, que ahora los deja al día el guion que publica cada producto.)*
 >
 > Se vio en vivo el 2026-08-11: apenas se publicó el pack, los dos botones de esta misma página
 > —que usaban `releases/latest`— pasaron a llevar al pack, incluido el que decía "Descargar
