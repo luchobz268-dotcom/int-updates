@@ -9,7 +9,7 @@ Son **dos productos distintos**, y cada uno se baja por separado:
 | | Qué es | Formatos |
 |---|---|---|
 | **INT-Halo** | Un visualizador para grabar videos POV de teclado: convierte lo que tocás en un juego de luces en pantalla. **No hace sonido** — convive con cualquier instrumento. | VST3 + aplicación suelta |
-| **Pack de audio** | Cinco plugins que trabajan la voz, cada uno con un botón: **INT-Tidy**, **INT-Even**, **INT-Whisper**, **INT-Spaces** e **INT-Align**. | VST3 + CLAP |
+| **Pack de audio** | Seis plugins que trabajan la voz, cada uno con un botón: **INT-Tidy**, **INT-Even**, **INT-Whisper**, **INT-Spaces**, **INT-Align** e **INT-Reverse**. | VST3 + CLAP |
 
 ## Bajar INT-Halo
 
@@ -22,7 +22,7 @@ está `INT-Halo-VST3.zip` (se descomprime en `C:\Program Files\Common Files\VST3
 
 **[⬇️ Descargar el pack v0.7.0](https://github.com/luchobz268-dotcom/int-updates/releases/tag/plugins-v0.7.0)**
 
-Los cinco plugins en un solo instalador, y al instalarlo podés destildar los que no quieras.
+Los seis plugins en un solo instalador, y al instalarlo podés destildar los que no quieras.
 Windows 10 u 11, 64 bits. Formatos VST3 y CLAP.
 
 > **Ojo: acá los enlaces van con la ETIQUETA puesta, nunca con `releases/latest`.**
