@@ -13,7 +13,7 @@ Son **dos productos distintos**, y cada uno se baja por separado:
 
 ## Bajar INT-Halo
 
-**[⬇️ Descargar INT-Halo v0.2.0](https://github.com/luchobz268-dotcom/int-updates/releases/tag/v0.2.0)**
+**[⬇️ Descargar INT-Halo v0.2.1](https://github.com/luchobz268-dotcom/int-updates/releases/tag/v0.2.1)**
 
 Windows 10 u 11, 64 bits. Si preferís el plugin suelto, sin instalador, en esa misma publicación
 está `INT-Halo-VST3.zip` (se descomprime en `C:\Program Files\Common Files\VST3`).
