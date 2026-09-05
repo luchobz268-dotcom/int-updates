@@ -69,7 +69,11 @@ actualización se rechaza.
 
 - **[vst.ineedtime.com.ar](https://vst.ineedtime.com.ar)** — la página de los plugins: qué hace cada
   uno, las 23 escenas de INT-Halo y cómo empezar.
+- **[sample.ineedtime.com.ar](https://sample.ineedtime.com.ar)** — el sampler, que corre en el
+  navegador y no hay que instalar. No se descarga desde acá: se abre y listo.
 - **[ineedtime.com.ar](https://ineedtime.com.ar)** — el sello colaborativo I.N.T., la otra mitad de
   la marca.
+- **[Qué es I.N.T.](https://ineedtime.com.ar/que-es)** — todo lo que hay, en una página: el sello,
+  los plugins, el sampler y la extensión.
 - **[Todas las versiones](https://github.com/luchobz268-dotcom/int-updates/releases)** — el historial
   completo de los dos productos.
