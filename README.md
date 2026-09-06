@@ -20,7 +20,7 @@ está `INT-Halo-VST3.zip` (se descomprime en `C:\Program Files\Common Files\VST3
 
 ## Bajar el pack de audio
 
-**[⬇️ Descargar el pack v0.8.0](https://github.com/luchobz268-dotcom/int-updates/releases/tag/plugins-v0.8.0)**
+**[⬇️ Descargar el pack v0.9.0](https://github.com/luchobz268-dotcom/int-updates/releases/tag/plugins-v0.9.0)**
 
 Los seis plugins en un solo instalador, y al instalarlo podés destildar los que no quieras.
 Windows 10 u 11, 64 bits. Formatos VST3 y CLAP.
